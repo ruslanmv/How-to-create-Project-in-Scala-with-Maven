@@ -141,7 +141,7 @@ mvn package
 
 
 
-![1](C:\Users\066226758\Box\Blog\How-to-install-scala-with-Maven\assets\images\posts\README\1.png)
+![1](.\assets\images\posts\README\1.png)
 
 
 
@@ -217,7 +217,7 @@ and
 mvn scala:run `-DmainClass=com.company.App
 ```
 
-![image-20230505145633938](C:\Users\066226758\Box\Blog\How-to-install-scala-with-Maven\assets\images\posts\README\image-20230505145633938.png)
+![image-20230505145633938](.\assets\images\posts\README\image-20230505145633938.png)
 
 
 
@@ -277,4 +277,4 @@ At the moment I can’t remember *why* that’s required, but I can tell you tha
 
 
 
-![3](C:\Users\066226758\Box\Blog\How-to-install-scala-with-Maven\assets\images\posts\README\3.png)
+![3](.\assets\images\posts\README\3.png)
