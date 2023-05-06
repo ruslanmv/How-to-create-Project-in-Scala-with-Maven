@@ -185,7 +185,7 @@ and run
   mvn scala:run -DmainClass=com.company.App
 ```
 
-![2](C:\Users\066226758\Box\Blog\How-to-install-scala-with-Maven\assets\images\posts\README\2.png)
+![2](.\assets\images\posts\README\2.png)
 
 
 
