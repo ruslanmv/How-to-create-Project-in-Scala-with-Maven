@@ -20,17 +20,57 @@ You executed the Maven goal *archetype:generate*, and passed in various paramete
 
 This *archetype:generate* goal created a simple project based upon a [maven-archetype-quickstart](https://maven.apache.org/archetypes/maven-archetype-quickstart/) archetype. 
 
-- interactive Mode (select scala-archetype-simple and response to questions) :
+- interactive Mode (select scala-archetype-simple and response to questions) 
+
+
+
+
+
 
 ```
   mvn archetype:generate
 ```
+Then we should  choose a number or apply filter : 
+
+```
+1747
+```
+then we Choose net.alchim31.maven:scala-archetype-simple version:
+```
+4
+```
+Choose net.alchim31.maven:scala-archetype-simple version:
+```
+4
+```
+
+Next, Maven will ask you for a **archetype**, **DarchetypeArtifactId,** **groupId**, **artifactId,** and **package**. You can read the [guide to naming conventions](https://maven.apache.org/guides/mini/guide-naming-conventions.html),
 
 
 
-Next, Maven will ask you for a **archetype**, **DarchetypeArtifactId,** **groupId**, **artifactId,** and **package**. You can read the [guide to naming conventions](https://maven.apache.org/guides/mini/guide-naming-conventions.html), 
+Define value for property 'groupId': 
+```
+com.company
+```
+Define value for property 'artifactId': 
+```
+project
+```
+Define value for property 'version' :
+```
+1.0
+```
+Define value for property 'package':
+```
+com.company: 
+```
+Confirm properties configuration:
+```
+Y
+```
 
 
+You will have something like:
 
 ```
 C:\Maven_test>mvn archetype:generate
@@ -103,7 +143,7 @@ package: com.company
 
 
 
-or
+or in a simplified way
 
 - non interactive / batch (change info in the last line) :
 
