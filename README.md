@@ -10,6 +10,26 @@ Developers describe **Apache Maven** as "*Apache build manager for Java projects
 
 In this demo we will focus on **Apache Maven**
 
+
+Installing Apache Maven
+The installation of Apache Maven is a simple process of extracting the archive and adding the bin directory with the mvn command to the PATH.
+
+Detailed steps are:
+
+Have a JDK installation on your system. Either set the JAVA_HOME environment variable pointing to your JDK installation or have the java executable on your PATH.
+
+Extract distribution archive in any directory
+
+unzip apache-maven-3.9.1-bin.zip
+or
+
+tar xzvf apache-maven-3.9.1-bin.tar.gz
+Alternatively use your preferred archive extraction tool.
+
+Add the bin directory of the created directory apache-maven-3.9.1 to the PATH environment variable
+
+Confirm with mvn -v in a new shell. The result should look similar to
+
 ## Creating a Project
 
 You need somewhere for your project to reside. Create a directory somewhere and start a shell in that directory. 
