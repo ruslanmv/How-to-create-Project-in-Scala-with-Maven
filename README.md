@@ -141,7 +141,7 @@ mvn package
 
 
 
-![1](.\assets\images\posts\README\1.png)
+![1](./assets/images/posts/README/1.png)
 
 
 
