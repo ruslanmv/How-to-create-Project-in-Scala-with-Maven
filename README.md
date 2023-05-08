@@ -64,10 +64,7 @@ then we Choose net.alchim31.maven:scala-archetype-simple version:
 ```
 4
 ```
-Choose net.alchim31.maven:scala-archetype-simple version:
-```
-4
-```
+
 
 Next, Maven will ask you for a **archetype**, **DarchetypeArtifactId,** **groupId**, **artifactId,** and **package**. You can read the [guide to naming conventions](https://maven.apache.org/guides/mini/guide-naming-conventions.html),
 
@@ -127,12 +124,6 @@ Choose net.alchim31.maven:scala-archetype-simple version:
 3: 1.6
 4: 1.7
 Choose a number: 4: 1.7
-
-Choose net.alchim31.maven:scala-archetype-simple version:
-1: 1.4
-2: 1.5
-3: 1.6
-4: 1.7
 Choose a number: 4: 4
 Define value for property 'groupId': com.company
 Define value for property 'artifactId': project
