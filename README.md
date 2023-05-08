@@ -185,7 +185,7 @@ and run
   mvn scala:run -DmainClass=com.company.App
 ```
 
-![2](.\assets\images\posts\README\2.png)
+![2](./assets/images/posts/README/2.png)
 
 
 
@@ -217,7 +217,7 @@ and
 mvn scala:run `-DmainClass=com.company.App
 ```
 
-![image-20230505145633938](.\assets\images\posts\README\image-20230505145633938.png)
+![image-20230505145633938](./assets/images/posts/README/image-20230505145633938.png)
 
 
 
@@ -277,6 +277,6 @@ At the moment I can’t remember *why* that’s required, but I can tell you tha
 
 
 
-![3](.\assets\images\posts\README\3.png)
+![3](./assets/images/posts/README/3.png)
 
 
