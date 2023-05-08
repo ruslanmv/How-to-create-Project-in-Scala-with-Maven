@@ -41,16 +41,13 @@ You need somewhere for your project to reside. Create a directory somewhere and 
 
 The easiest way to create new projects is using an [“archetype”](https://maven.apache.org/archetype/maven-archetype-plugin/). An archetype is a general skeleton structure, or template for a project. Think back to “convention over configuration”; in our case, the Scala Maven Plugin provides an archetype for scala projects.
 
-You executed the Maven goal *archetype:generate*, and passed in various parameters to that goal. 
+Let us first open a terminal and go to your root directory
+```
+cd \
+```
 
-This *archetype:generate* goal created a simple project based upon a [maven-archetype-quickstart](https://maven.apache.org/archetypes/maven-archetype-quickstart/) archetype. 
 
 - interactive Mode (select scala-archetype-simple and response to questions) 
-
-
-
-
-
 
 ```
   mvn archetype:generate
@@ -173,6 +170,9 @@ mvn archetype:generate -DarchetypeGroupId=net.alchim31.maven -DarchetypeArtifact
 
 If this is your first time, you’ll notice that Maven is downloading many jar files. Maven resolves dependencies and downloads them as needed (and only once). Right now, Maven is downloading its core plugins.
 
+You executed the Maven goal *archetype:generate*, and passed in various parameters to that goal. 
+This *archetype:generate* goal created a simple project based upon a [maven-archetype-quickstart](https://maven.apache.org/archetypes/maven-archetype-quickstart/) archetype. 
+
 ### The POM
 
 The `pom.xml` file is the core of a project's configuration in Maven. It is a single configuration file that contains the majority of information required to build a project in just the way you want. The POM is huge and can be daunting in its complexity, but it is not necessary to understand all of the intricacies just yet to use it effectively. 
@@ -279,7 +279,10 @@ mvn scala:run `-DmainClass=com.company.App
 
 By default, the jar created by the Scala Maven Plugin doesn’t include a `Main-Class` attribute in the manifest. You cab add the [Maven Assembly Plugin](https://maven.apache.org/plugins/maven-assembly-plugin/) to`pom.xml` in order to specify custom attributes in the manifest. You can check the latest version of this plugin at the [project summary](https://maven.apache.org/plugins/maven-assembly-plugin/summary.html) 
 
-
+If you have installed Apache Spark you can run this application with
+```
+spark-submit --class com.company.App "c:\project\target\project2-0.1-SNAPSHOT.jar"
+```
 
 ### Useful commands
 
