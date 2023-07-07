@@ -15,7 +15,8 @@ In this demo we will focus on **Apache Maven**
 
 
 First you have to download this the Apache Maven
-https://dlcdn.apache.org/maven/maven-3/3.9.1/binaries/apache-maven-3.9.1-bin.zip
+
+[https://dlcdn.apache.org/maven/maven-3/3.9.1/binaries/apache-maven-3.9.1-bin.zip](https://dlcdn.apache.org/maven/maven-3/3.9.1/binaries/apache-maven-3.9.1-bin.zip)
 
 
 The installation of Apache Maven is a simple process of extracting the archive and adding the bin directory with the mvn command to the PATH.
@@ -40,7 +41,28 @@ Alternatively use your preferred archive extraction tool.
 
 Add the bin directory of the created directory apache-maven-3.9.1 to the PATH environment variable
 
-Confirm with mvn -v in a new shell. The result should look similar to
+Confirm with
+ ```
+ mvn -v 
+ ```
+ in a new shell. The result should look similar to
+
+
+```
+Apache Maven 3.9.1 (2e178502fcdbffc201671fb2537d0cb4b4cc58f8)
+Maven home: C:\Maven\apache-maven-3.9.1
+Java version: 1.8.0_361, vendor: Oracle Corporation, runtime: C:\Java\jdk1.8.0_361\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+```
+
+### Scala Metals Plugin
+
+Optionally you can install s simple pluggin called Metals on Visutal Studio Code, what has a very useful IDE features.
+
+Simply type Metals into the Search panel. Then  look for the Scala(Metals) extension by Scalametals in the search results, open it, and click the install button
+
+![3](./assets/images/posts/README/3.png)
 
 ## Creating a Project
 
@@ -62,9 +84,9 @@ cd \
 Then we should  choose a number or apply filter : 
 
 ```
-1749
+1764
 ```
-then we Choose net.alchim31.maven:scala-archetype-simple version:
+then we choose **net.alchim31.maven:scala-archetype-simple** version:
 ```
 4
 ```
@@ -338,10 +360,5 @@ $ scala -cp $SCALA_HOME/lib/scala-library.jar:RenumberAllMdFiles.jar RenumberAll
 At the moment I can’t remember *why* that’s required, but I can tell you that it fixes the problem.
 
 
-
-### Scala Metals Plugin
-
-
-![3](./assets/images/posts/README/3.png)
 
 
