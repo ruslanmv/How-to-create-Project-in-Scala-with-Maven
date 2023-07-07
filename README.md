@@ -1,6 +1,6 @@
 # How to create Project in Scala with Maven
 
-Hello today we are going to install Scala on Windows and run a simple demo.
+Hello today we are going to create a Project in Scala on Windows with Maven and run a simple demo.
 
 If you are starting to work in a project where you require develop a software in Scala by using Maven and you want start from the beginning. In this blog post I will explain a simple demo by using maven and Vs Code.
 
@@ -12,6 +12,7 @@ In this demo we will focus on **Apache Maven**
 
 
 ### Installing Apache Maven
+
 
 First you have to download this the Apache Maven
 https://dlcdn.apache.org/maven/maven-3/3.9.1/binaries/apache-maven-3.9.1-bin.zip
@@ -25,10 +26,16 @@ Have a JDK installation on your system. Either set the JAVA_HOME environment var
 
 Extract distribution archive in any directory
 
-unzip apache-maven-3.9.1-bin.zip
-or
 
+```
+unzip apache-maven-3.9.1-bin.zip
+```
+
+
+or
+```
 tar xzvf apache-maven-3.9.1-bin.tar.gz
+```
 Alternatively use your preferred archive extraction tool.
 
 Add the bin directory of the created directory apache-maven-3.9.1 to the PATH environment variable
@@ -333,7 +340,6 @@ At the moment I can’t remember *why* that’s required, but I can tell you tha
 
 
 ### Scala Metals Plugin
-
 
 
 ![3](./assets/images/posts/README/3.png)
