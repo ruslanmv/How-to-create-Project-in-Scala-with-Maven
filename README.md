@@ -1,4 +1,4 @@
-# How to install Scala and create project with Maven 
+# How to create Project in Scala with Maven
 
 Hello today we are going to install Scala on Windows and run a simple demo.
 
